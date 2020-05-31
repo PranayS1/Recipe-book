@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebaseAPIKey: 'AIzaSyCJLSrjMlLyPl8IHKsZnSzNrl-lwX7tkqA',
+  firebaseAPIKey: '', // Add your own key data
   imageURL: '../assets/logo.jpg'
 };
 
