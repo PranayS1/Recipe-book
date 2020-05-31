@@ -1,0 +1,10 @@
+@media only screen and (max-width: 991px) {
+    #forSmallDevices{
+        display: block; 
+    }  /* show it on smaller screen */
+  }
+  @media only screen and (min-width: 992px) {
+    #forSmallDevices{ 
+        display: none; 
+    }   /* hide it on larger screens */
+  }

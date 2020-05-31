@@ -1,0 +1,4 @@
+img {
+    transform: rotate(-30deg);
+    transform: skewX(30deg);
+}
