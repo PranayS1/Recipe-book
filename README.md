@@ -1,5 +1,7 @@
 # Recipe
 
+#This project was made as a part of Udemy's course. (With some enhancements).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Initialization
