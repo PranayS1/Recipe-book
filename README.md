@@ -1,6 +1,12 @@
 # Recipe
 
+This project is made as a part of Udemy's course. (with some enhancements).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+
+## Initialization
+
+First fetch or add some of your recipes and shopping list from DB to start with!!
 
 ## Development server
 
