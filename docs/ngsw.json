@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643530840642,
+  "timestamp": 1643531083229,
   "index": "https://PranayS1.github.io/Recipe-book/index.html",
   "assetGroups": [
     {
@@ -44,6 +44,7 @@
         "https://PranayS1.github.io/Recipe-book/assets/icons/icon-512x512.png",
         "https://PranayS1.github.io/Recipe-book/assets/icons/icon-72x72.png",
         "https://PranayS1.github.io/Recipe-book/assets/icons/icon-96x96.png",
+        "https://PranayS1.github.io/Recipe-book/assets/logo.jpg",
         "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.448c34a56d699c29117a.woff2",
         "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.89889688147bd7575d63.svg",
         "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf",
@@ -81,6 +82,7 @@
     "https://PranayS1.github.io/Recipe-book/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://PranayS1.github.io/Recipe-book/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://PranayS1.github.io/Recipe-book/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://PranayS1.github.io/Recipe-book/assets/logo.jpg": "653ce46a7211ae67b115a1865dc03d5142931095",
     "https://PranayS1.github.io/Recipe-book/favicon.ico": "b34bf1a836def9112c420c4cf23c006fccba29b8",
     "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.448c34a56d699c29117a.woff2": "ca35b697d99cae4d1b60f2d60fcd37771987eb07",
     "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.89889688147bd7575d63.svg": "de51a8494180a6db074af2dee2383f0a363c5b08",
