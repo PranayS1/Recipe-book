@@ -1,19 +1,12 @@
 <div class="row">
     <div class="card col-xs-12" style="width: 100%">
-        <img [src]="recipe.imagePath" 
-        alt="{{ recipe.name }}" 
-        class="card-img-top img-responsive"
-        style="height: 100%; width: 100%">
+        <img [src]="recipe.imagePath" alt="{{ recipe.name }}" class="card-img-top img-responsive" style="height: 100%; width: 100%">
 
         <div class="card-body">
             <h1 class="card-title">{{ recipe.name }}
-                <div 
-                class="btn-group pull-right"
-                appDropdown>
+                <div class="btn-group pull-right" appDropdown>
 
-                    <button 
-                        type="button" 
-                        class="btn btn-primary dropdown-toggle">
+                    <button type="button" class="btn btn-primary dropdown-toggle">
                         Manage Recipe <span class="caret"></span>
                     </button>
 
@@ -34,66 +27,10 @@
         <br>
 
         <ul class="list-group list-group-flush">
-            <li class="list-group-item"
-                *ngFor="let ingredient of recipe.ingredients">
-                    <p>{{ingredient.name}}<span class="w3-badge w3-green w3-right w3-margin-right w3-large">{{ingredient.amount}}</span></p>
+            <li class="list-group-item" *ngFor="let ingredient of recipe.ingredients">
+                <p>{{ingredient.name}}<span class="badge" style="background-color: #4CAF50;">{{ingredient.amount}}</span></p>
             </li>
         </ul>
 
     </div>
 </div>
-
-
-
-
-
-
-<!-- <div class="row">
-    <div class="col-xs-12">
-        <img [src]="recipe.imagePath" 
-        alt="{{ recipe.name }}" 
-        class="img-responsive"
-        style="height: 300px;">
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12">
-        <h1>{{ recipe.name }}</h1>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12">
-        <div 
-        class="btn-group"
-        appDropdown>
-            <button 
-                type="button" 
-                class="btn btn-primary dropdown-toggle">
-                Manage Recipe <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li><a (click)="onAddToShoppingList()" style="cursor: pointer;">To Shopping list</a></li>
-                <li><a style="cursor: pointer;" (click)="onEditRecipe()">Edit Recipe</a></li>
-                <li><a style="cursor: pointer;" (click)="onDeleteRecipe()">Delete Recipe</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-12">
-        {{ recipe.description }}
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <ul class="list-group">
-            <li class="list-group-item"
-                *ngFor="let ingredient of recipe.ingredients">
-                    <p>{{ingredient.name}}<span class="w3-badge w3-green w3-right w3-margin-right w3-large">{{ingredient.amount}}</span></p>
-            </li>
-        </ul>
-    </div>
-</div> -->
