@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643529826210,
+  "timestamp": 1643530165551,
   "index": "https://PranayS1.github.io/Recipe-book/index.html",
   "assetGroups": [
     {
@@ -16,8 +16,8 @@
         "https://PranayS1.github.io/Recipe-book/7-es5.36ef4e07c0a80b0e7e07.js",
         "https://PranayS1.github.io/Recipe-book/favicon.ico",
         "https://PranayS1.github.io/Recipe-book/index.html",
-        "https://PranayS1.github.io/Recipe-book/main-es2015.64f289965a62de4543b1.js",
-        "https://PranayS1.github.io/Recipe-book/main-es5.64f289965a62de4543b1.js",
+        "https://PranayS1.github.io/Recipe-book/main-es2015.09afbce2047da4d3fa70.js",
+        "https://PranayS1.github.io/Recipe-book/main-es5.09afbce2047da4d3fa70.js",
         "https://PranayS1.github.io/Recipe-book/manifest.webmanifest",
         "https://PranayS1.github.io/Recipe-book/polyfills-es2015.5b10b8fd823b6392f1fd.js",
         "https://PranayS1.github.io/Recipe-book/polyfills-es5.3e8196928d184a6e5319.js",
@@ -87,9 +87,9 @@
     "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf": "44bc1850f570972267b169ae18f1cb06b611ffa2",
     "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot": "86b6f62b7853e67d3e635f6512a5a5efc58ea3c3",
     "https://PranayS1.github.io/Recipe-book/glyphicons-halflings-regular.fa2772327f55d8198301.woff": "278e49a86e634da6f2a02f3b47dd9d2a8f26210f",
-    "https://PranayS1.github.io/Recipe-book/index.html": "00ed6e0a6c7fa243b2f7ef1a888104ca7cd1782e",
-    "https://PranayS1.github.io/Recipe-book/main-es2015.64f289965a62de4543b1.js": "6910246f4e8012e5d64558ebcaad9e964d61917e",
-    "https://PranayS1.github.io/Recipe-book/main-es5.64f289965a62de4543b1.js": "6ad16ecc5304e34d37df2f91a1f9ec1abac57b1a",
+    "https://PranayS1.github.io/Recipe-book/index.html": "acae953241283cf906ef85684e6a71b96956e522",
+    "https://PranayS1.github.io/Recipe-book/main-es2015.09afbce2047da4d3fa70.js": "2a054bf584b599709e62add43b750ef69c504688",
+    "https://PranayS1.github.io/Recipe-book/main-es5.09afbce2047da4d3fa70.js": "ff758f7c82f4c458511619b4d37476f5bc67f6b9",
     "https://PranayS1.github.io/Recipe-book/manifest.webmanifest": "866c73c74437a60f2a19f1c307b2afc110f4a98a",
     "https://PranayS1.github.io/Recipe-book/polyfills-es2015.5b10b8fd823b6392f1fd.js": "9abfe15f17820a646e3d51c420908d9f8f7b69b8",
     "https://PranayS1.github.io/Recipe-book/polyfills-es5.3e8196928d184a6e5319.js": "d9c7ea7bdf48a3fe0308f88e6be472be42eb5c3e",
