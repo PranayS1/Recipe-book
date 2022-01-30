@@ -23,6 +23,19 @@ import {join} from 'path';
 // Express server
 const app = express();
 
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader(
+      'Access-Control-Allow-Headers',
+      "Original, X-Requested-With, Content-Type, Accept, Authorization"
+       );
+  res.setHeader(
+      'Access-Control-Allow-Methods',
+      "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+      );
+  next();
+});
+
 const PORT = process.env.PORT || 4000;
 const DIST_FOLDER = join(process.cwd(), 'dist/browser');
 
@@ -39,19 +52,6 @@ app.engine('html', ngExpressEngine({
 
 app.set('view engine', 'html');
 app.set('views', DIST_FOLDER);
-
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader(
-      'Access-Control-Allow-Headers',
-      "Original, X-Requested-With, Content-Type, Accept, Authorization"
-       );
-  res.setHeader(
-      'Access-Control-Allow-Methods',
-      "GET, POST, PATCH, PUT, DELETE, OPTIONS"
-      );
-  next();
-});
 
 // Example Express Rest API endpoints
 // app.get('/api/**', (req, res) => { });
