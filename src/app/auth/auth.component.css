@@ -1,4 +1,14 @@
-img {
-    transform: rotate(-30deg);
+.img {
+  width: 100%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 426px) {
+  .img {
     transform: skewX(30deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }

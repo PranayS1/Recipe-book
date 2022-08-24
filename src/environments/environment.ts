@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
-  firebaseAPIKey: 'AIzaSyCJLSrjMlLyPl8IHKsZnSzNrl-lwX7tkqA',
-  imageURL: '../assets/logo.jpg'
+  firebaseAPIKey: "AIzaSyCJLSrjMlLyPl8IHKsZnSzNrl-lwX7tkqA",
+  logoURL: "../assets/logo.jpg",
+  errorImageURL: "../assets/error.jpg",
 };
 
 /*

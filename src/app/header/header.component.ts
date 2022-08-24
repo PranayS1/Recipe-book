@@ -1,21 +1,20 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from 'rxjs';
-import { Store } from '@ngrx/store';
-import { map } from 'rxjs/operators';
-import { Router } from '@angular/router';
+import { Component, OnInit, OnDestroy } from "@angular/core";
+import { Subscription } from "rxjs";
+import { Store } from "@ngrx/store";
+import { map } from "rxjs/operators";
+import { Router } from "@angular/router";
 
-import * as fromApp from '../store/app.reducer';
-import * as AuthActions from '../auth/store/auth.actions';
-import * as RecipesActions from '../recipes/store/recipe.actions';
-import * as ShoppingListActions from '../shopping-list/store/shopping-list.actions';
+import * as fromApp from "../store/app.reducer";
+import * as AuthActions from "../auth/store/auth.actions";
+import * as RecipesActions from "../recipes/store/recipe.actions";
+import * as ShoppingListActions from "../shopping-list/store/shopping-list.actions";
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: "app-header",
+  templateUrl: "./header.component.html",
+  styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit, OnDestroy {
-
   isAuthenticated = false;
   private userSub: Subscription;
 
@@ -23,16 +22,16 @@ export class HeaderComponent implements OnInit, OnDestroy {
     // private dataStorageService:DataStorageService,
     private store: Store<fromApp.AppState>,
     private router: Router
-  ) { }
+  ) {}
 
   ngOnInit() {
-    this.userSub = this.store.select('auth')
-      .pipe(map(authState => authState.user))
-      .subscribe(user => {
-        this.isAuthenticated = !!user // Its equivalent to !user ? false : true;
-    })
+    this.userSub = this.store
+      .select("auth")
+      .pipe(map((authState) => authState.user))
+      .subscribe((user) => {
+        this.isAuthenticated = !!user; // Its equivalent to !user ? false : true;
+      });
   }
-
 
   // onSaveData() {
   //   // this.dataStorageService.storeRecipe();
@@ -41,9 +40,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
 
   onSaveData() {
     // this.dataStorageService.storeRecipe();
-    if(this.router.url === "/recipes"){
+    if (this.router.url.includes("/recipes")) {
       this.store.dispatch(new RecipesActions.StoreRecipes());
-    } else if(this.router.url === "/shopping-list") {
+    } else if (this.router.url === "/shopping-list") {
       this.store.dispatch(new ShoppingListActions.StoreShoppingList());
     }
   }
@@ -53,9 +52,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
   // }
 
   onFetchData() {
-    if(this.router.url === "/recipes"){
+    if (this.router.url === "/recipes") {
       this.store.dispatch(new RecipesActions.FetchRecipes());
-    } else if(this.router.url === "/shopping-list") {
+    } else if (this.router.url === "/shopping-list") {
       this.store.dispatch(new ShoppingListActions.FetchShoppingList());
     }
   }
@@ -67,5 +66,4 @@ export class HeaderComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.userSub.unsubscribe();
   }
-
 }

@@ -19,11 +19,13 @@ import { AuthEffects } from './auth/store/auth.effects';
 import { environment } from 'src/environments/environment';
 import { RecipeEffects } from './recipes/store/recipe.effects';
 import { ShoppingListEffects } from './shopping-list/store/shopping-list.effects';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
