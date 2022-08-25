@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661365558082,
+  "timestamp": 1661408261353,
   "index": "https://pranays1.github.io/Recipe-book/index.html",
   "assetGroups": [
     {
@@ -23,7 +23,7 @@
         "https://pranays1.github.io/Recipe-book/polyfills-es5.3e8196928d184a6e5319.js",
         "https://pranays1.github.io/Recipe-book/runtime-es2015.cef2d87e362a90b25b5f.js",
         "https://pranays1.github.io/Recipe-book/runtime-es5.cef2d87e362a90b25b5f.js",
-        "https://pranays1.github.io/Recipe-book/styles.7ac213e9b7a1d2afd45a.css"
+        "https://pranays1.github.io/Recipe-book/styles.e3537f09da937897c33b.css"
       ],
       "patterns": [
         "https:\\/\\/www\\.w3schools\\.com\\/w3css\\/4\\/w3\\.css",
@@ -91,7 +91,7 @@
     "https://pranays1.github.io/Recipe-book/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf": "44bc1850f570972267b169ae18f1cb06b611ffa2",
     "https://pranays1.github.io/Recipe-book/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot": "86b6f62b7853e67d3e635f6512a5a5efc58ea3c3",
     "https://pranays1.github.io/Recipe-book/glyphicons-halflings-regular.fa2772327f55d8198301.woff": "278e49a86e634da6f2a02f3b47dd9d2a8f26210f",
-    "https://pranays1.github.io/Recipe-book/index.html": "692ce9e133055e7d5262f23e844cde893d316bba",
+    "https://pranays1.github.io/Recipe-book/index.html": "4f9dc82acaa70e81160bfbc004a0c31fecdb55f2",
     "https://pranays1.github.io/Recipe-book/main-es2015.66073068924d85899a8e.js": "216c6087011c8838d2f2f9c2aa9781881d6452f1",
     "https://pranays1.github.io/Recipe-book/main-es5.66073068924d85899a8e.js": "6f6ba9cfe8fbc8f7e90b611d34c9e668f941a881",
     "https://pranays1.github.io/Recipe-book/manifest.webmanifest": "866c73c74437a60f2a19f1c307b2afc110f4a98a",
@@ -99,7 +99,7 @@
     "https://pranays1.github.io/Recipe-book/polyfills-es5.3e8196928d184a6e5319.js": "d9c7ea7bdf48a3fe0308f88e6be472be42eb5c3e",
     "https://pranays1.github.io/Recipe-book/runtime-es2015.cef2d87e362a90b25b5f.js": "5534af5abe2aa70913f17d6020b1670f37715026",
     "https://pranays1.github.io/Recipe-book/runtime-es5.cef2d87e362a90b25b5f.js": "742e5a6a343d2ecd7640bdf6525eef4597b53965",
-    "https://pranays1.github.io/Recipe-book/styles.7ac213e9b7a1d2afd45a.css": "0ae47ebdd0321c1eff595d4904ed9eb2aa993c79"
+    "https://pranays1.github.io/Recipe-book/styles.e3537f09da937897c33b.css": "d412076e0b643581f13e52eaf642a021bc4a4a1a"
   },
   "navigationUrls": [
     {
