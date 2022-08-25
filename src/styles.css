@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.w3-badge,
+.w3-tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.w3-badge {
+  border-radius: 50%;
+}
+.w3-green,
+.w3-hover-green:hover {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+}
+.w3-right {
+  float: right !important;
+}
+.w3-margin-right {
+  margin-right: 16px !important;
+}
+.w3-large {
+  font-size: 18px !important;
+}
